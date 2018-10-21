@@ -11,7 +11,7 @@ def draw():
         x = -320
     else:
        x += 1.5
-       background(253,94,83)
+       background(253, 94, 83)
        noStroke()
           
     #rays
@@ -42,7 +42,7 @@ def draw():
 
         #sun
     fill(255,215,0)
-    ellipse(width/2, height/3, 150,150)
+    ellipse(width/2, height/3, 150, 150)
     
     #tower
     fill(0)
@@ -87,26 +87,26 @@ def draw():
     fill(249,146,190)
     
     ellipse(x, height/2, 75, 75)   
-    ellipse(x+60,height/2.1, 100,100)
+    ellipse(x+60, height/2.1, 100, 100)
     ellipse(x+120, height/2, 75, 75) 
 
        
     ellipse(x-120, height/1.5, 75, 75)
-    ellipse(x-180,height/1.55, 100,100)
+    ellipse(x-180, height/1.55, 100, 100)
     ellipse(x-240, height/1.5, 75, 75)
        
     ellipse(x-350, height/2.5, 75, 75)
-    ellipse(x-410,height/2.6, 100,100)
+    ellipse(x-410, height/2.6, 100, 100)
     ellipse(x-470, height/2.5, 75, 75)
     
     ellipse(x-620, height/1.7, 75, 75)
-    ellipse(x-680,height/1.8, 100,100)
+    ellipse(x-680, height/1.8, 100, 100)
     ellipse(x-740, height/1.7, 75, 75)
     
     ellipse(x-920, height/2.5, 75, 75)
-    ellipse(x-980,height/2.7, 100,100)
+    ellipse(x-980, height/2.7, 100, 100)
     ellipse(x-1040, height/2.5, 75, 75)
     
     ellipse(x-1220, height/1.5, 75, 75)
-    ellipse(x-1280,height/1.55, 100,100)
+    ellipse(x-1280, height/1.55, 100, 100)
     ellipse(x-1340, height/1.5, 75, 75)
