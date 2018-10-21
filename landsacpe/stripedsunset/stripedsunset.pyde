@@ -7,7 +7,7 @@ def draw():
            
     global x
 
-    if x >= 2300:
+    if x >= 2375:
         x = -320
     else:
        x += 1.5
