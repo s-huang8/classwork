@@ -1,0 +1,64 @@
+def setup():
+    size(900, 600)
+    global bush
+    global pump1
+    global pump
+    global star
+    global sunlight
+
+    bush = loadImage ("bush")
+    pump1 = loadImage("scarypump")
+    pump = loadImage ("pump")
+    star = loadImage("star.png")
+    sunlight = loadImage("sunlight.png")
+    
+def draw(): 
+
+    background(0, 51, 102)
+    noStroke()
+    
+    #light
+    image(sunlight, -50, height/3, 1000, 900)
+    #pumpkin
+    image(pump, 0, 450, 100, 85)
+    image(pump, 170, 450, 100, 85)
+    image(pump, 630, 450, 100, 85)
+    image(pump, 800, 450, 100, 85)
+    
+    #bushes
+    fill(101, 146, 41)
+    rect(0, 560, width, height)
+    image(bush, -170, 460, 400, 200)
+    image(bush, 60, 460, 400, 200)
+    image(bush, 290, 460, 400, 200)
+    image(bush, 510, 460, 400, 200)
+
+    
+    #cresent moon
+    fill(245, 227, 135)
+    ellipse(width/3, height/4, 225,225)
+    fill(0, 51, 102)
+    ellipse(width/2.5, height/3.9, 150, 150)
+    
+    #pumpkin
+    image(pump, 10, 515, 100, 85)
+    image(pump, 110, 515, 100, 85)
+    image(pump, 600, 515, 100, 85)
+    image(pump, 850, 515, 100, 85)
+    
+    #jackolantern
+    image(pump1, 250, 260, 400, 350)
+    
+    #enter button
+    fill(23,113,32)
+    rect(340, 260, 200, 40,17)
+    fill(255)
+    stroke(255,45,234)
+    textSize(20)
+    text("Click to enter", 370, 285)    
+    
+    
+        #stars
+    for x in range (50, 1000, 150):
+        image(star, x*1.5 , height/4, 50, 50)
+        image(star, x*2 , height/10, 50, 50)
